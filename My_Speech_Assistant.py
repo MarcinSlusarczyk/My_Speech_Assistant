@@ -59,9 +59,9 @@ while True:
 		if len(czy_zawiera(cur, PRZEKLENSTWA)):
 				ilosc += 1 					
 				if ilosc == 1:								
-					speak("Jak jeszcze raz przeklniesz to wyjebie Ci z buta i wyłączę kompa")
+					speak("Jak jeszcze raz przeklniesz wkurwie się i wyłączę kompa")
 				if ilosc == 2:
-					speak("Miarka się przebrała jełopie, wyłączam kompa, papatki!")
+					speak("Miarka się przebrała, wyłączam kompa, papatki!")
 					os.system("shutdown /s /t 1")
 			
 			
